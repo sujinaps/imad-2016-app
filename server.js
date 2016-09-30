@@ -106,7 +106,7 @@ app.get('/', function (req, res) {
 app.get('/:ArticleName',function (req, res) {
   //res.sendFile(path.join(__dirname, 'ui', 'Article-one.html'));
   //res.send(CreateTemplate(Articleone)); 
-  var ArticleName = ewq.params.ArticleName;
+  var ArticleName = req.params.ArticleName;
   res.send(CreateTemplate(Articles[ArticleName]));
   
 }); 
