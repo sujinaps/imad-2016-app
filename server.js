@@ -5,6 +5,30 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+
+var Artcleone ={
+    title:'Article-one myself Sujina',
+    heading :'Article One',
+    date: 'Sep 2 2016',
+    content: `<p>
+                    This is the Content for Article one This is the Content for Article one This is the Content for Article one This is the Content for Article one This is the Content for Article one
+                </p>
+                <p>
+                    This is the Content for Article one This is the Content for Article one`
+}; /* added by me to reduce the html code Module P4*/
+
+function CreateTemplate(data)
+{
+    var title = data.title;
+    var date = data.date;
+    var heading = data.heading;
+    var content = data.content;
+    
+    
+return htmlTemplate;
+}
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
