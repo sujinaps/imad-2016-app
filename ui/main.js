@@ -10,6 +10,10 @@ function moveRight()
 {
     marginLeft = marginLeft + 5;
     img.style.marginLeft  = marginLeft +'px';
+    if(marginLeft == 200)
+    {
+        marginLeft = 0;
+    }
 }
 
 img.onclick= function(){
