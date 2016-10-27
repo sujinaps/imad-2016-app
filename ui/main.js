@@ -20,3 +20,12 @@ img.onclick= function(){
     var interval = setInterval(moveRight,50);
     //img.style.marginLeft = '100px';
 };
+
+
+//counter code
+var counter =0;
+var button = document.getElementById('counter');
+button.onclick = function(){
+    
+    counter = counter+1;
+};
