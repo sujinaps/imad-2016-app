@@ -107,9 +107,7 @@ app.get('/counter', function(req,res)
 {
     counter = counter+1;
     res.send(counter.toString());
-}
-
-//app.get('/Article-one',function (req, res) {
+});
 app.get('/:ArticleName',function (req, res) {
   //res.sendFile(path.join(__dirname, 'ui', 'Article-one.html'));
   //res.send(CreateTemplate(Articleone)); 
