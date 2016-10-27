@@ -10,7 +10,7 @@ function moveRight()
 {
     marginLeft = marginLeft + 5;
     img.style.marginLeft  = marginLeft +'px';
-    if(marginLeft == 200)
+    if(marginLeft == 500)
     {
         marginLeft = 0;
     }
