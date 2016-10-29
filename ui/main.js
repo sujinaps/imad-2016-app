@@ -24,7 +24,7 @@ img.onclick= function(){
 
 //counter code
 
-/*
+
 
 var button = document.getElementById('counter');
 
@@ -45,7 +45,7 @@ button.onclick = function(){
     
             }
     
-    };*/
+    };
     
     request.open('GET','http://sujinaps.imad.hasura-app.io/counter', true);
     request.send(null);
